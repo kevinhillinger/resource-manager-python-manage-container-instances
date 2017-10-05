@@ -6,8 +6,7 @@ author: kehilli
 
 # Manage Azure Container Instances 
 
-This sample shows how to use the Python SDK to create, retreive, and delete Azure Container Instances, 
-using Managed Service Identity (MSI) authentication.
+This sample shows how to use the Python SDK to create, retreive, and delete Azure Container Instances.
 
 **Outline**
 
