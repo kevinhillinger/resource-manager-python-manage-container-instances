@@ -13,10 +13,12 @@ using Managed Service Identity (MSI) authentication.
 
 - [Running the sample](#run)
 - [What is example.py doing?](#example)
-    - [Create a MSI authentication instance](#create-credentials)
-    - [Get the subscription ID of that token](#subscription_id)
-    - [List resource groups](#list-groups)
-
+    - [Creating the manager](#create-credentials)
+      - Define a security context for connecting to Azure
+         - Set the subscription ID
+         - Add Client ID and Secret for specified Azure AD tenant
+    - [Defining and creating the container group](#create-group)
+   - [Deleting the container group](#deleting-group)
 <a id="run"></a>
 ## Running the example
 
